@@ -35,7 +35,6 @@ inventory_order_api/
 ├── config.py
 ├── extensions.py
 ├── requirements.txt
-├── .env
 ├── .gitignore
 ├── migrations/
 │   └── versions/
@@ -53,8 +52,9 @@ inventory_order_api/
 │   ├── product_routes.py
 │   └── order_routes.py
 ├── services/
-│   ├── order_service.py
-│   └── product_service.py
+│   ├── __init__.py
+│   ├── product_service.py
+│   └── order_service.py
 └── tests/
     ├── conftest.py
     ├── test_auth.py
